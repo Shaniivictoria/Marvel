@@ -43,21 +43,26 @@ li:hover{
 
 
 
-
-
-
-
-
 .footer{
-    border: solid red;
+ 
     width: 100%;
     height: 260px;
-    background-image: url(footer.\ png.jpeg);
+    background-image: url(/images/footer.\ png.jpeg);
+    background-repeat: no-repeat;
+    padding: 15px;
+
 }
 
 /* I want the words to flash in the footer.
 and zoom in when you scroll down. */
 
+
+/************************************* Movie Time Line ************************************/
+
+.timeLine{
+    align-items: center;
+    text-align: center;
+}
 
 
 
@@ -68,5 +73,168 @@ and zoom in when you scroll down. */
 .mainCharContainer{
     border: solid green;
     width: 100%;
+    height: 1500px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+    gap: 10px;
+}
+.mainCharContainer div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid yellow;
+    text-align: center;
+    font-size: 30px;
+}
+
+#captainAmerica{
+    background-image: url(/images/captainAmerica.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#spiderMan{
+    background-image: url(/images/spiderman.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#hulk{
+    background-image: url(/images/hulk.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#ironMan{
+    background-image: url(/images/ironMan.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#wandaMaxi{
+    background-image: url(/images/wandaMaxi.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#wonderWomen{
+    background-image: url(/images/wonderWomen.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#vision{
+    background-image: url(/images/vision.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#antMan{
+    background-image: url(/images/antMan.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#gamora{
+    background-image: url(/images/gamora.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#groot{
+    background-image: url(images/groot.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#rocket{
+    background-image: url(images/rocket.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#blackPantha{
+    background-image: url(images/blackPantha.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#msMarvel{
+    background-image: url(/images/msMarvel.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#carolDenvers{
+    background-image: url(images/carolDenvers.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+#monicaRambeau{
+    background-image: url(images/monicaRambeau.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+#mariaRambeau{
+    background-image: url(images/mariaRambeau.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#thor{
+    background-image: url(images/thor.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+
+}
+
+#loki{
+    background-image: url(/images/loki.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#lukeCage{
+    background-image: url(/images/lukeCage.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#pepperPotts{
+    background-image: url(images/pepperPotts.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#doctorStrange{
+    background-image: url(images/doctorStrange.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#shuri{
+    background-image: url(images/shuri.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#wong{
+    background-image: url(images/wong.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+
+#yonduUdonta{
+    background-image: url(images/yonduUdonta.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+}
+/***************************** Super Powers *****************************************/
+.mainSupPowerContainer{
+    border: solid red;
+    width: 100%;
     height: 150px;
+}
+
+.headingOne{
+    text-align: center;
 }
