@@ -51,5 +51,22 @@ li:hover{
 .footer{
     border: solid red;
     width: 100%;
-    height: 160px;
+    height: 260px;
+    background-image: url(footer.\ png.jpeg);
+}
+
+/* I want the words to flash in the footer.
+and zoom in when you scroll down. */
+
+
+
+
+
+
+/************************ Marvel Characters *********************************/
+
+.mainCharContainer{
+    border: solid green;
+    width: 100%;
+    height: 150px;
 }
